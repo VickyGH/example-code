@@ -1,7 +1,7 @@
 <?php
 class Pages extends CI_Controller {
   function __construct(){
-		parent::Controller();
+		parent::__construct();
     $this->load->helper(array('url'));
 	}
 
