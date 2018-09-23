@@ -1,5 +1,9 @@
 <?php
 class Pages extends CI_Controller {
+  function __construct(){
+		parent::Controller();
+    $this->load->helper(array('url'));
+	}
 
   public function view($page = 'home')
 {
