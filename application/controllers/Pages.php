@@ -2,6 +2,7 @@
 class Pages extends CI_Controller {
   function __construct(){
 		parent::__construct();
+    /*
     $this->load->helper(array('url'));
 
     $this->load->helper('form');
@@ -20,7 +21,7 @@ class Pages extends CI_Controller {
         $this->load->model('Directorio_model');
         $this->Directorio_model->insertar_comentario($nombre, $correo, $comentario);
     }
-
+    */
 	}
 
   public function view($page = 'home'){
