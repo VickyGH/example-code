@@ -44,7 +44,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo base_url('Beneficiarios');?>">
+					<a href="<?php echo base_url('beneficiarios');?>">
 						<i class="material-icons">assignment</i> Beneficiarios
 					</a>
 				</li>

@@ -1,5 +1,5 @@
 <?php
-defined('Beneficiarios') OR exit('No direct script access allowed');
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Inicio extends CI_Controller {
 	function __construct(){
