@@ -43,62 +43,6 @@
         <div class="title">
           <h4>Quejas y Sugerencias</h4>
         </div>
-        <!--
-        <div class="row">
-          <div class='col-md-10 col-md-offset-2'>
-          <?php
-          $attr_Label = array('class' => 'control-Title');
-          $attr_Input = array('class' => 'form-control');
-          $attr_Button = array('class' => 'btn btn-primary');
-
-
-          echo form_open('Directorio/index');
-
-          echo "<div class='col-md-12'>";
-          echo form_error('nombre');
-          echo "</div >";
-          echo "<div class='col-md-12 form-group'>";
-          echo "<div class='col-md-2'>";
-          echo form_label('Nombre: ', 'nombre', $attr_Label);
-          echo "</div >";
-          echo "<div class='col-md-5'>";
-          echo form_input('nombre', '', $attr_Input);echo '<br>';
-          echo "</div >";
-          echo "</div >";
-
-          echo "<div class='col-md-12'>";
-          echo form_error('correo');
-          echo "</div >";
-          echo "<div class='col-md-12 form-group'>";
-          echo "<div class='col-md-2'>";
-          echo form_label('Correo Electrónico: ', 'correo', $attr_Label);
-          echo "</div >";
-          echo "<div class='col-md-5'>";
-          echo form_input('correo', '', $attr_Input);echo '<br>';
-          echo "</div >";
-          echo "</div >";
-
-          echo "<div class='col-md-12'>";
-          echo form_error('comentario');
-          echo "</div >";
-          echo "<div class='col-md-12 form-group'>";
-          echo "<div class='col-md-2'>";
-          echo form_label('Comentario: ', 'comentario', $attr_Label);
-          echo "</div >";
-          echo "<div class='col-md-5'>";
-          echo form_input('comentario', '', $attr_Input);echo '<br>';
-          echo "</div >";
-          echo "</div >";
-
-          echo "<div class='col-md-5 col-md-offset-3'>";
-          echo form_submit('botonSubmit', 'Enviar', $attr_Button);
-          echo "</div >";
-
-          echo form_close();
-          ?>
-            </div>
-        </div>-->
-        <!-- -->
       </div>
     </div>
   </div>
