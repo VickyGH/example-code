@@ -80,7 +80,7 @@ $db['default'] = array(
 	'username' => 'b590f0b46fb292',//$url["user"],
 	'password' => 'f132c72b',//$url["pass"],
 	'database' => 'heroku_3b55b3335cb84ab',//substr($url["path"], 1),
-	'dbdriver' => 'mysql',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => TRUE,//(ENVIRONMENT !== 'production'),
