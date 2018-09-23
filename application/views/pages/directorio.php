@@ -43,7 +43,7 @@
         <div class="title">
           <h4>Quejas y Sugerencias</h4>
         </div>
-        <!-- -->
+        <!--
         <div class="row">
           <div class='col-md-10 col-md-offset-2'>
           <?php
@@ -52,7 +52,7 @@
           $attr_Button = array('class' => 'btn btn-primary');
 
 
-          echo form_open('Directorio');
+          echo form_open('Directorio/index');
 
           echo "<div class='col-md-12'>";
           echo form_error('nombre');
@@ -97,7 +97,7 @@
           echo form_close();
           ?>
             </div>
-        </div>
+        </div>-->
         <!-- -->
       </div>
     </div>
