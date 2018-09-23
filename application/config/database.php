@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 //$url = parse_url(getenv("mysql://b590f0b46fb292:f132c72b@us-cdbr-iron-east-01.cleardb.net/heroku_3b55b3335cb84ab?reconnect=true"));
-
+/*
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'us-cdbr-iron-east-01.cleardb.net',//$url["host"],
@@ -95,8 +95,9 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+*/
 
-/*
+/* */
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
@@ -118,4 +119,3 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-*/
