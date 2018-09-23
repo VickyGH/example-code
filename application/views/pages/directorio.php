@@ -52,7 +52,7 @@
           $attr_Button = array('class' => 'btn btn-primary');
 
 
-          echo form_open('directorio');
+          echo form_open('Directorio');
 
           echo "<div class='col-md-12'>";
           echo form_error('nombre');
