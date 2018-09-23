@@ -10,7 +10,7 @@ class Inicio extends CI_Controller {
 	{
 		$data['title'] = ucfirst('Inicio');
     $this->load->view('templates/header',$data);
-    $this->load->view('pages/inicio');
+    $this->load->view('inicio');
     $this->load->view('templates/footer');
 	}
 }
