@@ -10,7 +10,7 @@ class Beneficiarios extends CI_Controller {
 	{
 		$data['title'] = ucfirst('Beneficiarios');
     $this->load->view('templates/header',$data);
-    $this->load->view('pages/beneficiarios');
+    $this->load->view('pages/inicio');
     $this->load->view('templates/footer');
 	}
 }
