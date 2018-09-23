@@ -5,10 +5,8 @@ class Pages extends CI_Controller {
     $this->load->helper(array('url'));
 	}
 
-  public function view($page = 'home')
-{
-  if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php'))
-  {
+  public function view($page = 'home'){
+  if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php')){
           // Whoops, we don't have a page for that!
           show_404();
   }
