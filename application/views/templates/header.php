@@ -44,12 +44,12 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo base_url('beneficiarios');?>">
+					<a href="<?php echo base_url('Beneficiarios');?>">
 						<i class="material-icons">assignment</i> Beneficiarios
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo base_url('descargables');?>">
+					<a href="<?php echo base_url('Descargables');?>">
             <i class="material-icons">description</i> Descargables
 					</a>
 				</li>
