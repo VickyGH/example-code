@@ -2,10 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
-	function __construct(){
-		parent::__construct();
-    $this->load->helper(array('url'));
-	}
 	/**
 	 * Index Page for this controller.
 	 *
@@ -23,9 +19,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['title'] = ucfirst('Inicio');
-    $this->load->view('templates/header',$data);
-    $this->load->view('pages/inicio');
-    $this->load->view('templates/footer');
+    $this->load->view('welcome_message');
 	}
 }
