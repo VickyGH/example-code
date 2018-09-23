@@ -49,7 +49,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo base_url('Descargables');?>">
+					<a href="<?php echo base_url('descargables');?>">
             <i class="material-icons">description</i> Descargables
 					</a>
 				</li>

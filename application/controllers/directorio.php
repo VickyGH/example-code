@@ -23,9 +23,12 @@ class Directorio extends CI_Controller {
         $this->Directorio_model->insertar_comentario($nombre, $correo, $comentario);
     }
 		$data['title'] = ucfirst('Directorio');
-		$this->load->view('templates/header',$data);
-    $this->load->view('pages/directorio');
-    $this->load->view('templates/footer');
+		//$this->load->view('templates/header',$data);
+    //$this->load->view('pages/directorio');
+    //$this->load->view('templates/footer');
+
+		$this->load->view('templates/header', $data);
+	  $this->load->view('pages/'.$page, $data);
+	  $this->load->view('templates/footer', $data);
 	}
 }
-?>
