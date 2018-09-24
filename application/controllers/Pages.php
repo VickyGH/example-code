@@ -22,7 +22,7 @@ class Pages extends CI_Controller {
 
 	}
 
-  public function view($page = 'home'){
+  public function view($page = 'inicio'){
     if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php')){
             // Whoops, we don't have a page for that!
             show_404();
