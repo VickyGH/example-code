@@ -48,7 +48,7 @@
             </paragraph>
           </div>
           <div class="col-md-4">
-            <img src="<?php echo base_url(); ?>static/assets/img/avatar.jpg" alt="Raised Image" class="img-rounded img-responsive img-raised">
+            <img src="<?php echo base_url(); ?>static/assets/img/logoPRE.png" alt="Raised Image" class="img-rounded img-responsive img-raised">
           </div>
         </div>
       </div>
